@@ -1,0 +1,20 @@
+body{
+	background: rgb(254,222,0);
+	background: linear-gradient(0deg, rgba(254,222,0,1) 0%, rgba(106,184,238,1) 19%, rgba(180,248,200,1) 89%);
+	margin: 0;  background-repeat: no-repeat;  background-attachment: fixed; overflow-x: hidden;
+}
+
+#answer{  position: absolute; top: 5%; left: 35%; width: 30%; display: inline-block; text-align: center;  }
+
+#answer #pic{
+	width: 80%;
+	height: 60%;
+}
+
+#answer #cheese_name{}
+
+#answer #short_description{}
+
+#answer #b_return{
+
+}

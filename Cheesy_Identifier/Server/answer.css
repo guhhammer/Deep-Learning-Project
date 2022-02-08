@@ -1,0 +1,36 @@
+body{
+	background:url("background.png") rgba(127, 127, 127, 1);
+	background-size:100% 8000%;
+	background-blend-mode: multiply;
+}
+
+.answerboard{
+    border: 5px solid #444;
+    background-color: #ddd;
+	color: #111;
+	width:200px;
+    display: block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin: -75px 0 0 -310px;
+	text-align:center;
+    padding: 18px 200px;
+	font-size:25px;
+}
+.buttonBack {
+    border: 1px solid #fff;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	position:absolute;
+	width:610px;
+	top:50%;
+	left:50%;
+	margin: 90px 0 0 -310px;
+}

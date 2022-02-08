@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Cheesy Identifier</title>
+		<link rel="icon" href="https://cdn1.iconfinder.com/data/icons/zaficons-foods-1/512/cheese-512.png">
+
+		<link rel="stylesheet" type="text/css" href="../CSS/home.css?v=2">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	
+		<script type="text/javascript" src="../JAVASCRIPT/jquery.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>			
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript" src="../JAVASCRIPT/home.js"></script>
+	
+	</head>
+	
+	<body>
+
+		<div id="app_name_div"> <p id="app_name"> Cheesy Identifier </p> </div>
+
+		<div id="select_photo_div">
+			<input type="file" accept="image/*" name="" id="file_input">
+			<button id="b_webcam" class="pop_up_click_initial_button">Take pic with webcam!</button>
+		</div>
+
+		<div id="video_webcam" class="pop_up_overlay">
+        	<div class="popup_content">
+
+				<video id="video" width="680" height="200" autoplay></video>
+
+				<button id="closer" class="close first_button">Close</button>
+				<button id="snaper" class="snap second_button">Snap Photo</button>
+
+				<canvas id="canvas" width="680" height="200"></canvas>
+				
+        	</div>
+      	</div>
+
+	</body>
+
+</html>

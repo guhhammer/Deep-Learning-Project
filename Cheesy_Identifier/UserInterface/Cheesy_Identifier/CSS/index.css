@@ -1,0 +1,9 @@
+body{	background-color: black; overflow-x: hidden;  }
+
+#initial{	position: absolute;	top: 10%; left: 1%; width: 100%; display: inline-block; text-align: center;  }
+
+#initial #app_name{  color: yellow;  font-size: 500%;  font-family: 'Dekko';  }
+
+#initial #loading_p{  color: white; font-size: 180%;  }
+
+#initial #loading_img{  top: 2%;  width: 100%;  }

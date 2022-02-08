@@ -1,0 +1,1 @@
+function delay(){ setTimeout(function() { window.open("HTML/home.html", "_self"); }, Math.floor((Math.random() * 5000) + 1500)); }

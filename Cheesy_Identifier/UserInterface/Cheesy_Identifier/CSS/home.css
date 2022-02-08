@@ -1,0 +1,93 @@
+body{
+	background: rgb(254,222,0);
+	background: linear-gradient(0deg, rgba(254,222,0,1) 0%, rgba(106,184,238,1) 19%, rgba(180,248,200,1) 89%);
+	margin: 0;  background-repeat: no-repeat;  background-attachment: fixed; overflow-x: hidden;
+}
+
+#app_name_div{  position: absolute; top: 5%; left: 35%; width: 30%; display: inline-block; text-align: center;  }
+
+#app_name_div #app_name{  font-size: 300%; color: yellow; font-family: 'Dekko';  }
+
+#select_photo_div{  position: absolute; top: 40%; left: 40%; width: 20%; height: 30%; display: inline-block; text-align: center;  }
+
+#select_photo_div #file_input{  margin: 0 auto;  margin-bottom: 5%;  }
+
+#select_photo_div #b_webcam{  margin-top: 15%; margin: 0 auto;  }
+
+
+.unscrollable{  overflow: hidden;  } 
+
+.blurred{  filter: blur(3px);  }
+
+
+
+#video_webcam{
+
+}
+
+
+
+
+/*
+
+	The code below will be changed later.  
+
+*/
+
+
+:root{
+	--shade1: #7A8F9F; --shade2: #24FF99;
+	--div_border_color: #000000; --underline: #000000; 
+	--focused: rgba(228, 228, 228, 0.7); --focused_first_layer: black;
+	--button_idle: #00FF88; --no_match_color: rgba(242, 71, 71, 0.6);
+	--link_password_color: blue;  --inactive_color: transparent;
+	--ffamily: sans-serif;
+}
+
+.pop_up_click_initial_button{  }
+.pop_up_click_initial_button{  cursor: pointer; }
+
+.pop_up_overlay {
+	position: absolute; width: 40%; height: 55%; z-index: 1; left: 30%; top: 25%;
+	border: 3px solid var(--div_border_color);	border-radius: 10px;
+	visibility: hidden; background-color: gray;
+}
+
+.pop_up_overlay.active {  visibility: visible;  }
+
+.popup_content {  visibility: hidden;  }
+.popup_content.active {  visibility: visible;  }
+
+.pop_up_overlay video{
+	margin-top: 1%;  margin-bottom: 1%;  margin-left: 10%; 
+	width: 70%; height: 10%; padding-left: 10px;
+	border: 1px solid transparent;
+}
+
+.pop_up_overlay .second_input{  margin-top: -5%;  }
+
+.pop_up_overlay button{  width: 40%;  height: 40px;  z-index: 1; }
+
+.pop_up_overlay .first_button{
+	margin-top: 2.5%;  margin-left: 7.5%;
+  	border-radius: 10px;  border: 1px solid var(--button_idle);
+  	color: var(--shade1);  background-color: var(--shade2);
+  	font-size: 130%;
+}
+
+.pop_up_overlay .second_button{
+  	margin-left: 1%;  font-size: 130%;
+  	border-radius: 10px;  border: 1px solid var(--button_idle);
+  	color: var(--shade1);  background: var(--shade2);
+}
+
+.pop_up_overlay .first_button:hover {
+  	background-color: var(--shade2);  color: var(--focused_first_layer);
+  	border-radius: 30px;  cursor: pointer;
+}
+
+.pop_up_overlay .second_button:hover {
+  	background-color: var(--shade2);  color: var(--focused_first_layer);
+  	border-radius: 30px;  cursor: pointer;
+}
+
